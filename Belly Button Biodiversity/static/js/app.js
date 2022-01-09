@@ -123,7 +123,7 @@ async function main(){
     let layout = {
         showlegend: false,
         height: 600,
-        width: 600
+        width: 800
     };
 
     Plotly.newPlot("bubble", traceData2);
@@ -222,7 +222,7 @@ async function optionChanged(samp){
     let layout = {
         showlegend: false,
         height: 600,
-        width: 600
+        width: 800
     };
 
     Plotly.newPlot("bubble", traceData2);
